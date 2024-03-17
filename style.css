@@ -90,8 +90,8 @@ header{
   }
 
 .Title{    
-    font-size: 3.8rem;
-    line-height: 5rem;
+    font-size: 2.8rem;
+    line-height: 3rem;
     margin-bottom: 1rem;
     text-align: center;
 }
@@ -521,6 +521,44 @@ ul{
     display: none; /* Display the collapsed menu on smaller screens */
   }
 }
+
+/*course overview*/
+h1 {
+  margin: 0;
+}
+
+.syllabus {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.point_1 {
+  background-color:  lightcyan; /* Light blue background */
+  color: #000; /* White text */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px; 
+}
+
+.point_1:hover {
+  background-color: skyblue; /* Light blue background */
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(15, 13, 13, 0.1);
+}
+
+.point {
+  background-color:lightcyan; /* Light blue background */
+  color: #000; /* White text */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.point:hover {
+  background-color: skyblue; /* Light blue background */
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(15, 13, 13, 0.1);
+}
+  
 
 /*media Query for Responsive website*/
 @media only screen and (max-width: 480px){
